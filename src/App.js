@@ -11,7 +11,7 @@ function App() {
         <ShowAlert altura="50px" ancho="600px" colorFondo="red" colorTexto="white" texto="Alert malo"></ShowAlert>
 
         
-        <ShowAvatar urlImagen=""nombre="" apellido=""></ShowAvatar>
+        <ShowAvatar urlImagen="https://i.pinimg.com/originals/64/40/2f/64402f6d6b0d3d0d6fccd7fa49cba0f3.jpg"nombre="" apellido=""></ShowAvatar>
         
       </header>
     </div>

@@ -3,15 +3,15 @@ import avatar from './image/avatar.jpg'
 
 const ShowAvatar = ({ urlImagen, nombre, apellido }) => {
 
-    var cadenaNombre = nombre
-    var firtLetterName = cadenaNombre.charAt(0)
-    var cadenaApellido = apellido
-    var firtLetterLastName = cadenaApellido.charAt(0)
-    var concatenar = firtLetterName + " " + firtLetterLastName
+    let cadenaNombre = nombre
+    let firtLetterName = cadenaNombre.charAt(0)
+    let cadenaApellido = apellido
+    let firtLetterLastName = cadenaApellido.charAt(0)
+    let concatenar = firtLetterName + " " + firtLetterLastName
 
-    const ImagenUrl = urlImagen === '' && nombre === '' && apellido=== '' ? avatar : urlImagen
-    const Validar = ImagenUrl === ''  ? concatenar : concatenar
-    console.log(Validar)
+    const ImagenUrl = urlImagen === ''  &&nombre ==='' && apellido==='' ? avatar : urlImagen
+    const Concatenacion = urlImagen === '' ? concatenar : concatenar
+    console.log(Concatenacion)
     return (
         <div style={{
             backgroundColor: '#8B8B8B',
@@ -35,7 +35,7 @@ const ShowAvatar = ({ urlImagen, nombre, apellido }) => {
                      marginLeft: '35%',
                      color: 'blue',
                      fontSize: '500%'
-                }}>{Validar}</h1>
+                }}>{Concatenacion}</h1>
             </div>
 
 

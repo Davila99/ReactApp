@@ -1,5 +1,5 @@
 import { ShowAlert } from "./components/Alerts";
-import {ShowAvatar,ShowAvatarImage} from "./components/Avatar"
+import {ShowAvatar} from "./components/Avatar"
 
 
 

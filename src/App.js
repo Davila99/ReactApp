@@ -1,5 +1,6 @@
 import { ShowAlert } from "./components/Alerts";
-import {ShowAvatar} from "./components/Avatar"
+import {ShowAvatar,ShowAvatarImage} from "./components/Avatar"
+
 
 
 function App() {

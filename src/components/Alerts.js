@@ -7,8 +7,6 @@ const ShowAlert = ({altura,ancho,colorFondo,colorTexto, texto}) => {
               background:colorFondo,
               color:colorTexto,
               borderRadius:'3px'
-              
-              
           }}>
               {texto}
           </div>
